@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+img {
+  vertical-align: top;
+  width: 100%;
+}
+
+.post {
+  width: 30rem;
+  padding-bottom: 2rem;
+  background-color: #ffff;
+}
+
+.post__header {
+  display: flex;
+  /* padding: 0 1rem 0.5rem 0.5rem; */
+  padding: 1.25rem 1rem;
+}
+
+.html {
+  font-size: 1.75rem;
+  margin-right: 0.5rem;
+}
+
+.user__details {
+  font-size: 1rem;
+  margin-right: auto;
+}
+
+.username {
+  font-size: 1rem;
+}
+
+.location {
+  font-size: 0.875rem;
+}
+
+.post-img {
+  margin-bottom: 1rem;
+}
+
+.tiger__img {
+  height: 17.5rem;
+}
+
+.post__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.post__likes {
+  font-size: 0.935rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.post__caption {
+  font-size: 1rem;
+  padding: 0 1rem;
+}
